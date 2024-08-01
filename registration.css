@@ -1,0 +1,95 @@
+body{
+    background-color: white;
+}
+#container{
+    display:grid;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    height: 700px;
+    width:700px;
+    margin-left: 350px;
+    border-radius:8px;
+    box-shadow: 10px 10px 10px 15px gray,
+    10px 10px 10px 15px gray,
+    10px 10px 10px 15px white;
+    position:absolute;
+    padding:10px;
+}
+
+.sub-container{
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr;
+    padding:15px;
+    
+    
+}
+
+#label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#fname{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+}
+
+#lname{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+}
+
+#mail{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+}
+
+#mobile{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+
+}
+
+#password{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+
+}
+
+#dob{
+    margin-top:3px;
+    height:35px;
+    position:relative;
+    width:100%;
+    border-radius:10px;
+
+}
+
+#button{
+    height:45px;
+    width:600px;
+    border-radius:8px;
+    background-color:black;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:15px;
+}
+
