@@ -18,7 +18,8 @@
                 <label for="fname" id="label">First Name: </label>
             </div>
             <div>
-                <input type="text" id="fname" required="true">
+                <!-- <input type="text" id="fname" name="name" pattern="[A-Za-z]" required="true" onkeydown="return/^[A-Za-z]+$/i.test[event.key]"> -->
+                <input type="text" id="fname" name="name">
             </div>
        </div>
 
@@ -27,7 +28,8 @@
                  <label for="lname" id="label">Last Name: </label>
             </div>
             <div>
-                <input type="text" id="lname" required="true">
+                <!-- <input type="text" id="lname" name="name" pattern="[A-Za-z]+" required="true" onkeydown="return/^[A-Za-z]+$/i.test[event.key]"> -->
+                <input type="text" id="lname" name="name">
             </div>
         </div>    
 
@@ -73,13 +75,15 @@
         <div class="sub-container">
             
             <button id="button" >Submit</button>
-        </div>   
+        </div> 
+        
+        <center>
+            <p id="para"></p>
+        </center>
         
    </div>
    
-   <center>
-    <p id="para"></p>
-</center>
+   
     </div>
 
   

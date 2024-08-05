@@ -1,27 +1,32 @@
 body{
     background-color: white;
 }
+
+h1{
+    margin-top:0px;
+    padding-top:0px;
+}
 #container{
     display:grid;
     background-color: white;
     align-content: center;
     justify-content: center;
-    height: 700px;
-    width:700px;
+    height: 750px;
+    width:750px;
     margin-left: 350px;
     border-radius:8px;
     box-shadow: 10px 10px 10px 15px gray,
     10px 10px 10px 15px gray,
     10px 10px 10px 15px white;
     position:absolute;
-    padding:10px;
+    padding:8px;
 }
 
 .sub-container{
     position:relative;
     display:grid;
     grid-template-columns:1fr;
-    padding:15px;
+    padding:10px;
     
     
 }
@@ -91,5 +96,9 @@ body{
     font-size: 20px;
     font-weight: 600;
     margin-bottom:15px;
+}
+
+#para{
+    margin-top:0px;
 }
 
